@@ -1,2 +1,6 @@
 @echo off
-powershell.exe -NoProfile -ExecutionPolicy Bypass script/newdotfile.ps1
+pushd %~dp0
+set script="%cd%/script/newdotfile.ps1"
+popd
+rem echo script = %script%
+powershell.exe -ExecutionPolicy Bypass %script%

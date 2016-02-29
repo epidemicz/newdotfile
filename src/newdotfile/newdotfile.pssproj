@@ -32,6 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="newdotfile.bat" />
     <Compile Include="newdotfile.ps1" />
   </ItemGroup>
   <ItemGroup>

@@ -18,14 +18,12 @@ function Create-Dot-File ($path)
 		{
 			$input = Prompt-For-Overwrite
 
-			Write-Host "input = $input"
-
 			if ($input -eq "")
 			{
 				return $False
 			}
-
 		}
+
 		until ($input -eq "y" -or $input -eq "n")
 
 		if ($input -eq "y")
@@ -54,13 +52,15 @@ function Create-Dot-File ($path)
 
 function Prompt-For-Overwrite
 {
-	Write-Host "Warning: this file already exists." -fore red
-	Write-Host "Overwrite? (y/n): " -fore yellow -NoNewLine
+	Write-Host "Warning:" -NoNewline -ForegroundColor Magenta
+	Write-Host "::" -NoNewLine
+	Write-Host "This file already exists." -ForegroundColor Red
+	Write-Host "Overwrite? (y/n): " -NoNewLine -ForegroundColor Yellow 
 	$input = Read-Host
 	return $input.ToLower()
 }
 
-Write-Host "Dot File Creation Utility" -ForegroundColor yellow
+Write-Host "Dot File Creation Utility" -ForegroundColor Yellow
 Write-Host "--------------------"
 Write-Host "Current directory: " $pwd.Path
 Write-Host "Enter dotfile name: ." -NoNewLine
@@ -73,11 +73,15 @@ if ($filename -ne "")
 
 	if (Create-Dot-File $filename)
 	{
-		Write-Host "The dotfile has been created." -ForegroundColor cyan
+		Write-Host "SUCCESS" -NoNewline -ForegroundColor Green
+		Write-Host "::" -NoNewline
+		Write-Host "The dotfile has been created." -ForegroundColor Cyan
 	}
 	else
 	{
-		Write-Host "Warning: The dotfile was not created or already exists" -ForegroundColor Red
+		Write-Host "Warning" -NoNewline -ForegroundColor Magenta
+		Write-Host "::" -NoNewline
+		Write-Host "The dotfile was not created or already exists." -ForegroundColor Red
 	}
 }
 
