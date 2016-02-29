@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>newdotfile</id>
+    <title>newdotfile (command line)</title>
+    <version>1.0.0</version>
+    <authors>Tim Zenner</authors>
+    <owners>Tim Zenner</owners>
+    <summary>A dot file creation utility for windows which gives a handy right click > "New .dotfile here" option in Windows explorer.</summary>
+    <description>A dot file creation utility for windows which gives a handy right click > "New .dotfile here" option in Windows explorer.
+    </description>
+    <projectUrl>http://localhost/</projectUrl>
+    <packageSourceUrl>http://localhost/</packageSourceUrl>
+    <!--<projectSourceUrl></projectSourceUrl>
+    <docsUrl></docsUrl>
+    <mailingListUrl></mailingListUrl>
+    <bugTrackerUrl></bugTrackerUrl>-->
+    <tags>newdotfile commandline create dotfile windows</tags>
+    <copyright>2016 Tim Zenner</copyright>
+    <licenseUrl>http://localhost/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/newdotfile.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="__VERSION__" />
+      <dependency id="" />
+    </dependencies>-->
+    <releaseNotes>Initial release?</releaseNotes>
+    <!--<provides></provides>-->
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
