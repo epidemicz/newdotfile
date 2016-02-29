@@ -1,0 +1,2 @@
+Run the regkeys\new_dotfile_here.reg
+Add the this directory to your path variable.
