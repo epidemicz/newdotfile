@@ -12,7 +12,7 @@ Clone with `git clone https://github.com/epidemicz/newdotfile.git` or download i
 Get the latest release [here](https://github.com/epidemicz/newdotfile/releases/latest).
 - See the directions for **Installing**.
 
-##### Installing
+## Installing
 - Run the `regkey\new_dotfile_here.reg` file.
   - This should add a "New .dotfile here" option to your explorer's context menu. 
 - Copy the output folder to somewhere in your path or add it to your path variable.
