@@ -1,9 +1,0 @@
-To install
-==========
-Run the regkey\new_dotfile_here.reg.
-Add the this directory to your path variable.
-
-To uninstall
-==========
-Run the regkey\new_dotfile_here_uninstall.reg.
-Make me sad :(

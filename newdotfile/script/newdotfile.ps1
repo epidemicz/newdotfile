@@ -1,5 +1,4 @@
-﻿#
-# newdotfile.ps1
+﻿# newdotfile.ps1
 # author: Tim Zenner 
 # © Tim Zenner
 
