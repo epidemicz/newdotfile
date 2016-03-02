@@ -1,6 +1,10 @@
 # New Dot File
 A simple PowerShell script to create .dotfiles on Windows.  Integrates with explorer to give a "New .dotfile here" option in the context menu.
 
+![Explorer menu screenshot](/img/menu_screenshot.png)
+
+![Console screenshot](/img/console_screenshot.png)
+
 ## Obtaining
 ##### Source Code
 Clone with `git clone https://github.com/epidemicz/newdotfile.git` or download it [here](https://github.com/epidemicz/newdotfile/archive/master.zip).
