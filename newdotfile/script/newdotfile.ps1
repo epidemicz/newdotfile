@@ -1,4 +1,5 @@
 ﻿# newdotfile.ps1
+# A simple utility to create dotfiles on Windows.
 # author: Tim Zenner 
 # © Tim Zenner
 

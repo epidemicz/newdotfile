@@ -1,4 +1,7 @@
-﻿#@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://gist.githubusercontent.com/epidemicz/07acf2a65e6b835660ee/raw/3927b268da6b5ff833785732466ec85e7c982bc8/install-new-dot-file.ps1'))"
+﻿# install-new-dot-file.ps1
+# Installs or removes the "New .dotfile here" item in explorer's context menu
+# author: Tim Zenner
+# © Tim Zenner
 
 Param ([Boolean]$remove = $false)
 

@@ -1,0 +1,12 @@
+To install
+==========
+
+To add the context menu to explorer, run contextmenu\install.bat as administrator.
+
+In order to make the context menu work, ensure that
+newdotfile.bat and its script folder is accessible from your path.
+
+To uninstall
+==========
+
+To remove the context menu, run contextmenu\uninstall.bat as Administrator.
