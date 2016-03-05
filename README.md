@@ -5,6 +5,9 @@ A simple PowerShell script to create .dotfiles on Windows.  Integrates with expl
 
 ![Console screenshot](/../scr/console_screenshot.png)
 
+## Coming soon(ish)
+A [chocolatey](https://github.com/chocolatey/choco) package!
+
 ## Obtaining
 ##### Source Code
 Clone with `git clone https://github.com/epidemicz/newdotfile.git` or download it [here](https://github.com/epidemicz/newdotfile/archive/master.zip).
@@ -18,8 +21,8 @@ Get the latest release [here](https://github.com/epidemicz/newdotfile/releases/l
 ## Installing
 - To enable the context menu, run `contextmenu/install.bat` as Administrator.
   - This should add a "New .dotfile here" option to your explorer's context menu. 
-- Add the `newdotfile` directory to your path environment variable.  **newdotfile.bat** and its `script` directory need to be accessible from your path.
+- Add the `newdotfile` directory to your path environment variable.  **Important** `newdotfile.bat` and its `script` directory need to be accessible from your path.
 
 ## Uninstalling
 - To remove the context menu, run `contextmenu/uninstall.bat` as Administrator.
-- Delete the newdotfile directory.
+- Delete the `newdotfile` directory.
