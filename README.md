@@ -21,7 +21,7 @@ Get the latest release [here](https://github.com/epidemicz/newdotfile/releases/l
 ## Installing
 - To enable the context menu, run `contextmenu/install.bat` as Administrator.
   - This should add a "New .dotfile here" option to your explorer's context menu. 
-- Add the `newdotfile` directory to your path environment variable.  **Important** `newdotfile.bat` and its `script` directory need to be accessible from your path.
+- Add the `newdotfile` directory to your path environment variable.
 
 ## Uninstalling
 - To remove the context menu, run `contextmenu/uninstall.bat` as Administrator.
